@@ -178,6 +178,7 @@ body {
   z-index: 49;
   opacity: 0;
   transition: opacity 0.25s;
+  pointer-events: none;
 }
 
 .sidebar {
@@ -1011,6 +1012,7 @@ html.dark .drop-overlay { background: rgba(6, 17, 13, 0.96); }
 
   .sidebar-overlay.visible {
     opacity: 1;
+    pointer-events: auto;
   }
 
   .message-bubble {

@@ -15,7 +15,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({
 }) => {
   const inputRef = useRef<HTMLInputElement>(null);
   const [isDragging, setIsDragging] = useState(false);
-
+console.log('is dragging', isDragging);
   const processFiles = useCallback(
     (files: FileList | File[]) => {
       const fileArray = Array.from(files).filter((f) => f.type.startsWith('image/'));
@@ -42,6 +42,8 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({
     },
     [processFiles]
   );
+
+  console.log('handle drop', handleDrop);
 
   const removeImage = (id: string) => {
     const img = images.find((i) => i.id === id);

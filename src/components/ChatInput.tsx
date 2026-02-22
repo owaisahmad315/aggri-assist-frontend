@@ -24,6 +24,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSend, disabled }) => {
     onSend(text.trim(), images.length > 0 ? images : undefined);
     setText('');
     setImages([]);
+    if (fileInputRef.current) fileInputRef.current.value = '';
   }, [text, images, onSend, disabled]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -59,6 +60,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSend, disabled }) => {
       name: file.name,
     }));
     setImages((prev) => [...prev, ...newImages]);
+    if (fileInputRef.current) fileInputRef.current.value = '';
   }, [images]);
 
   const handleDrop = (e: React.DragEvent) => {

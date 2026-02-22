@@ -11,7 +11,7 @@ export function useChat() {
       id: uuidv4(),
       role: 'assistant',
       content:   
-        "Hello! I'm AgriAssist, your AI-powered crop health advisor. Upload images of your crops and describe any issues you're seeing — I'll diagnose diseases, pests, nutrient deficiencies, and provide treatment recommendations.\n\nTip: For best results, upload clear, well-lit photos of affected leaves, stems, or fruit.",
+        "Hello! I'm AgriNova Labs, your AI-powered crop health advisor. Upload images of your crops and describe any issues you're seeing — I'll diagnose diseases, pests, nutrient deficiencies, and provide treatment recommendations.\n\nTip: For best results, upload clear, well-lit photos of affected leaves, stems, or fruit.",
       timestamp: new Date(),
     },
   ]);
@@ -74,7 +74,7 @@ export function useChat() {
         id: uuidv4(),
         role: 'assistant',
         content:
-          "Hello! I'm AgriAssist, your AI-powered crop health advisor. Upload images of your crops and describe any issues you're seeing — I'll diagnose diseases, pests, nutrient deficiencies, and provide treatment recommendations.",
+          "Hello! I'm AgriNova Labs, your AI-powered crop health advisor. Upload images of your crops and describe any issues you're seeing — I'll diagnose diseases, pests, nutrient deficiencies, and provide treatment recommendations.",
         timestamp: new Date(),
       },
     ]);

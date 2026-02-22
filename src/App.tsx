@@ -39,7 +39,7 @@ function App() {
 
           <div className="header-brand">
             <div className="header-logo-dot" />
-            <span className="header-title">AgriAssist</span>
+            <span className="header-title">AgriNova Labs</span>
             <span className="header-status">
               <span className="status-dot" />
               AI Online

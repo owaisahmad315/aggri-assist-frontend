@@ -71,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onNewChat, isOpen, onClose }) => {
               </svg>
             </div>
             <div className="logo-text">
-              <span className="logo-name">AgriAssist</span>
+              <span className="logo-name">AgriNova Labs</span>
               <span className="logo-tag">Crop Health AI</span>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onNewChat, isOpen, onClose }) => {
         <div className="sidebar-footer">
           <div className="version-badge">AI Model v2.1</div>
           <p className="disclaimer">
-            AgriAssist provides guidance based on visual analysis. Always consult a local agronomist for critical decisions.
+            AgriNova Labs provides guidance based on visual analysis. Always consult a local agronomist for critical decisions.
           </p>
         </div>
       </aside>
